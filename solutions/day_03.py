@@ -48,6 +48,7 @@ def problem_two(data):
         priority += priority_dictionary[common]
     return priority
 
+
 if __name__ == "__main__":
     data = read_file('./data/day_three.txt')
     print(problem_one(data))
